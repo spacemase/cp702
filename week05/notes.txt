@@ -1,0 +1,11 @@
+struct employee {
+   char name[20];
+   int age;
+   double salary;
+} employ1, *employ2;
+
+union entry {
+   int ival;
+   double dval;
+};
+

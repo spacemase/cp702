@@ -1,0 +1,52 @@
+int main ( int argc, char *argv[ ] )
+
+
+
+<ctype.h>
+
+int isdigit(int c)
+int isalpha(int c)
+int isalnum(int c)
+int islower(int c)
+int isupper(int c)
+int tolower(int c)
+int toupper(int c)
+
+
+
+<stdio.h>
+
+char *gets(char *str)
+int puts(const char *str)
+int sprintf(char *s, const char *format, ...)
+int sscanf(char *s, const char *format, ...)
+
+
+
+
+
+<string.h>
+
+char *strcpy(char *s1, char *s2)
+char *strncpy(char *s1, char *s2, size_t n)
+char *strcat(char *s1, const char *s2)
+char *strncat(char *s1, const char *s2, size_t n)
+int strcmp(const char *s1, const char *s2)
+int strncmp(const char *s1, const char *s2, size_t n)
+char *strchr(const char *s, int c)
+char *strrchr(const char *s, int c)
+char *strpbrk(const char *s1, const char *s2)
+char *strstr(const char *s1, const char *s2)
+size_t strlen(const char *s)
+
+
+
+<stdlib.h>
+
+double atof(const char *cPtr)
+int atoi(const char *cPtr)
+long atol(const char *cPtr)
+double strtod(const char *cPtr, char **ePtr)
+long strtol(const char *cPtr, char **ePtr, int base)
+
+
